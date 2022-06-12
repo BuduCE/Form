@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1>Let's Build a Form</h1>
+    <div class="form">
+        <h2>Tell us something that happened to you today.</h2>
+
+        <div class="each">
+            <input type="text" class="single" placeholder="Enter your name">
+        </div>
+
+        <div class="each">
+            <input type="email" class="single" placeholder="Enter your email address">
+        </div>
+
+        <div class="each">
+            <input type="text" class="single" placeholder="How good was it? (1 - 10)">
+        </div>
+
+        <div class="each left">
+            <label for="">Where did it happen?</label>
+            <select name="" id="" class="right">
+                <option value=""> At home</option>
+                <option value=""> On my commute</option>
+                <option value=""> At work</option>
+                <option value=""> On the street</option>
+                <option value=""> Other</option>
+            </select>
+        </div>
+
+        <div class="each left">
+            <label for="">At what time of the day did it happen?</label>
+            <div class="right">
+                <input type="radio"> Morning <br>
+                <input type="radio"> Afternoon <br>
+                <input type="radio"> Evening <br>
+            </div>
+        </div>
+        
+
+        <div class="each">
+            <label for="" class="left">What emotion did you experience? <br>(Select all that applies)</label>
+            <div class="right">
+                <input type="checkbox" name="Excited" id=""> Excited <br>
+                <input type="checkbox" name="Humbled" id=""> Humbled <br>
+                <input type="checkbox" name="Elated" id=""> Elated <br>
+                <input type="checkbox" name="Loved" id=""> Loved <br>
+                <input type="checkbox" name="Enthusiatic" id=""> Enthusiatic <br>
+            </div>
+        </div>
+
+        <div class="each">
+            <label for="" class="left">Please describe your positive experience.</label>
+            <textarea name="" id="" cols="50" rows="5" placeholder="Enter your experience here..." class="right"></textarea>
+        </div>
+
+        <button id="btn">Submit</button>
+    </div>
+</body>
+</html>

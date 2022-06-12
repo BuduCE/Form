@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(0, 225, 255);
+}
+h1{
+    font-size: 2rem;
+    text-align: center;
+}
+h2{
+    font-size: 20px;
+    text-align: center;
+}
+input{
+    padding: 10px;
+    padding-left: 20px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    margin: 10px 0px;
+}
+.form{
+    margin: auto;
+    width: 40%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.896);
+    border-radius: 15px;
+    padding: 30px;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+#btn{
+    
+}
+.each{
+    margin: auto;
+    width: 60%;
+    display: flex;
+}
+.each label{
+    text-align: right;
+    margin: 0px 25px;
+    align-items: center;
+}
+.single{
+    width: 90%;
+}
+select{
+    width: 40%;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+button{
+    margin: auto;
+}
